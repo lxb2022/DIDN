@@ -100,21 +100,8 @@ python main.py --MAX_LENGTH 4000 --bidirectional --n_epochs 50 --batch_size 16 -
 |JointLAAT| **92.1** | 98.8 | 10.7 | 57.5 | 73.5 | 59.0 |
 |[MARN](https://drive.google.com/file/d/1wwOdb8PDC1N0eOJUP3y4cJ2h6WLZHwjI/view?usp=sharing)    | 91.3 | **98.8** | **11.6** | **58.4** | **75.4** | **60.2** |
 
-### MIMIC-III-50 (CCS)
 
-| Models     |  Macro AUC-ROC |  Micro AUC-ROC | Macro F1 | Micro F1 |  Precision at 5 |
-|--------------|-----------|-----------|-----------|--------------|-----------------------|
-|CAML | 89.2 | 92.2 | 60.9 | 67.5 | 64.5 |
-|MultiResCNN | 89.2 | 92.4 | 62.9 | 68.8 | 64.6 |
-|[MARN](https://drive.google.com/file/d/1oiiXfw9sn3b21nfqpQSIovxRXLhgMrxZ/view?usp=sharing)   | **92.8** |  **95.0** |	 **71.2**	|  **75.0**	|  **69.0** |
 
-### MIMIC-III-full (CCS)
-
-| Models     |  Macro AUC-ROC |  Micro AUC-ROC | Macro F1 | Micro F1 |  Precision at 8  |  Precision at 15  |
-|--------------|-----------|-----------|-----------|--------------|-----------------------|-----|
-|CAML| 88.8 | 96.1 | 44.4 | 66.5 | 80.5 | 63.6 |
-|MultiResCNN| 90.6 | 96.5 | 50.8 | 69.0 | 81.8 | 64.8 |
-|[MARN](https://drive.google.com/file/d/1wwOdb8PDC1N0eOJUP3y4cJ2h6WLZHwjI/view?usp=sharing)    |  **93.9** |  **97.4** |  **58.6** |  **72.2** |  **84.3** |  **67.2** |
 
 
 ## Acknowledgement
